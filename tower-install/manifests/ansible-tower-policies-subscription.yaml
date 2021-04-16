@@ -20,7 +20,7 @@ kind: Subscription
 metadata:
   annotations:
     apps.open-cluster-management.io/git-branch: main
-    apps.open-cluster-management.io/github-path: hack/manifests/policies
+    apps.open-cluster-management.io/github-path: tower-install/manifests/policies
   name: tower-resource-operator
   namespace: tower-policies
   labels:
