@@ -6,6 +6,6 @@ spec:
   applicationMenu:
     imageURL: https://upload.wikimedia.org/wikipedia/commons/2/24/Ansible_logo.svg
     section: Red Hat Applications
-  href: https://ansible-tower-web-svc-tower.apps.SPECIFY_YOUR_CLUSTER_NAME.SPECIFY_YOUR_CLUSTER_DOMAIN/
+  href: https://ansible-tower-web-svc-tower.apps.cluster-9a56.9a56.example.opentlc.com
   location: ApplicationMenu
   text: Red Hat Ansible Tower
