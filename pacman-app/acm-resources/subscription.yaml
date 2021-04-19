@@ -9,7 +9,7 @@ metadata:
     apps.open-cluster-management.io/git-path: pacman-app/pacman
     apps.open-cluster-management.io/git-branch: main
 spec:
-  channel: pacman/pacman-app-latest
+  channel: pacman-app/pacman-app-latest
   placement:
     placementRef:
       kind: PlacementRule
