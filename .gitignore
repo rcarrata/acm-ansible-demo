@@ -1,3 +1,5 @@
 *ansible*
 tower-install/tower-setup/tower_cli.cfg
+tower-install/tower-setup/group_vars/credentials.yml
+tower-install/manifests/toweraccess-secret.yaml
 
