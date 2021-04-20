@@ -5,7 +5,7 @@ metadata:
     name: pacman
     app.kubernetes.io/name: pacman
   name: pacman
-  namespace: pacman-app
+  namespace: pacman-demo
 spec:
   replicas: 1
   selector:
@@ -19,7 +19,7 @@ spec:
         app.kubernetes.io/name: pacman
     spec:
       containers:
-      - image: quay.io/jpacker/nodejs-pacman-app:green
+      - image: quay.io/jpacker/nodejs-pacman-demo:green
         name: pacman
         ports:
         - containerPort: 8080

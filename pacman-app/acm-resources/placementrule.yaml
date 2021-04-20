@@ -2,9 +2,9 @@ apiVersion: apps.open-cluster-management.io/v1
 kind: PlacementRule
 metadata:
   name: pacman-pr
-  namespace: pacman-app
+  namespace: pacman-demo
   labels:
-    app: pacman-app
+    app: pacman-demo
 spec:
   clusterReplicas: 2
   clusterConditions:
