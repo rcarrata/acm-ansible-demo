@@ -2,8 +2,8 @@
 apiVersion: apps.open-cluster-management.io/v1
 kind: Channel
 metadata:
-  name: pacman-demo-latest
-  namespace: pacman-demo
+  name: pacman-app-latest
+  namespace: pacman-app
 spec:
   type: GitHub
   pathname: https://github.com/rcarrata/acm-ansible-demo.git
